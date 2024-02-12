@@ -1,0 +1,1014 @@
+/* .all_content_boundary {
+    width: 70%;
+    padding: 30px;
+    /* background-color: aqua; *//*
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(4px);
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    box-sizing: border-box;
+} */
+
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+body {
+    /*width: 100px;
+    height: 100px;*/
+    /*padding: 20px 100px;*/
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(-45deg, #f08a9b, #86c7e7, #67f699, #c8f777, #ffcb8d);
+    background-size: 4000% 4000%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+
+
+
+html {
+    scroll-behavior: smooth ;
+}
+
+#sect1 {
+    padding: 0%;
+    margin: 0;
+    height: 720px;
+    // background-color: #67f699;
+}
+
+#sect2 {
+    margin-left: auto;
+    margin-right: auto;
+    height: 780px;
+    padding-top: 50px;
+    // background-color: #b9fe18;
+}
+
+#sect3 {
+  margin-left: auto;
+  margin-right: auto;
+  height: 740px;
+  padding-top: 50px;
+  // background-color: rgb(77, 193, 164);
+
+}
+
+#sect4 {
+    margin-left: auto;
+    margin-right: auto;
+    height: 740px;
+    padding-top: 20px;
+    // background-color: rgb(217, 237, 104);
+
+}
+
+#sect5 {
+  margin-left: auto;
+  margin-right: auto;
+  height: 740px;
+  padding-top: 20px;
+  // background-color: rgb(195, 104, 237);
+
+}
+
+#sect6 {
+  margin-left: auto;
+  margin-right: auto;
+  height: 1050px;
+  padding-top: 20px;
+  // background-color: rgb(104, 188, 237);
+
+}
+
+#sect7 {
+  margin-left: auto;
+  margin-right: auto;
+  height: 740px;
+  padding-top: 20px;
+  // background-color: rgb(121, 231, 189);
+
+}
+
+#sect8 {
+  margin-left: auto;
+  margin-right: auto;
+  height: 740px;
+  padding-top: 20px;
+  // background-color: rgb(255, 128, 255);
+
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 106, 0);
+    /* text-shadow: 2px, 2px, 8px, rgb(255, 106, 0); */
+}
+a {
+    color: rgb(0, 0, 0);
+    font-weight: 520;
+}
+
+// .sector1 {
+//   background-color: greenyellow;
+//   padding: 50px;
+//   box-sizing: border-box;
+// }
+
+.welcome_intro {
+    width: 80%;
+    font-size: x-large;
+    padding: 22px;
+    /* background-color: aqua; */
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(4px);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.intro_HT {
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.author {
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.roadmap {
+    width: 80%;
+    font-size: x-large;
+    padding: 22px;
+    /* background-color: aqua; */
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(4px);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+
+.roadmap a {
+    font-weight: bold;
+}
+
+#strong_txt {
+    font-size: xx-large;
+}
+/* .sect2_start {
+    margin-top: 50px;
+} */
+
+.f_half {
+  // width: 70%;
+  // background-color: #f08a9b;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+// .link_content{
+//   // display: flex;
+//   // flex-direction: row;
+//   width: 100%;
+//   background-color: #d267f6;
+//   display: flex;
+//   justify-content: center;
+//   flex-wrap: wrap;
+//   gap: 12px;
+//   flex-direction: row;
+//   // align-items: center;
+//   margin-left: auto;
+//   margin-right: auto;
+//   box-sizing: border-box;
+// }
+
+.sect2_start_pt1 {
+  width: 80%;
+  height: 90%;
+  // background-color: green;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-flow: wrap;
+  gap: 5%;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.Board_select_base {
+  height: 80%;
+  // background-color: orange;
+  // flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-flow: wrap;
+  gap: 5%;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  a:hover {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+.Board_select {
+  width: 40%;
+  height: auto;
+  // background-color: rgb(30, 79, 239);
+  color: #000;
+  // margin: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.Board_select:hover {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+// .sect2_start_pt2 {
+//   width: 80%;
+//   background-color: blue;
+//   display: flex;
+//   justify-content: center;
+//   flex-wrap: wrap;
+//   gap: 2%;
+//   flex-direction: row;
+//   margin-top: 2%;
+//   margin-left: auto;
+//   margin-right: auto;
+//   box-sizing: border-box;
+// }
+
+
+.softwares {
+    // width: 50%;
+    width: 40%;
+    font-size: x-large;
+    padding: 30px;
+    // background-color: palevioletred;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(4px);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    // flex: 40%;
+    flex-basis: auto;
+    box-sizing: border-box;
+}
+
+.install_vid {
+    // width: 50%;
+    width: 40%;
+    font-size: x-large;
+    padding: 30px;
+    /* background-color: aqua; */
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(4px);
+    // margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    // flex: 40%;
+    flex-basis: auto;
+    box-sizing: border-box;
+}
+
+
+.dark_Mode {
+    background: rgb(40, 40, 40);
+    color: rgb(205, 205, 205);
+}
+
+/* .button {
+    background-color: aqua;
+    padding: 15px 32px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 75%;
+    border-radius: 50px;
+    border: 1px;
+    box-sizing: border-box;
+} */
+
+.button {
+    width: 100px;
+    height: auto;
+    /*background-color: yellowgreen;*/
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(4px);    margin-top: 10px;
+    margin-left: 85%;
+
+    /* margin: 10px; */
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-sizing: border-box;
+}
+
+.arduino_prj_base
+{
+  width: 95%;
+  // background-color: yellow;
+  height: auto;
+  // flex-direction: row;
+  // display: flex;
+  // justify-content: space-around;
+  // flex-wrap: wrap;
+  // flex-flow: wrap;
+  // gap: 5%;
+  // flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+
+
+
+}
+
+
+.arduino_prj_split_base
+{
+  width: 100%;
+  height: 80%;
+  font-size: x-large;
+  padding: 30px;
+  background-color: rgb(104, 237, 104);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(4px);
+  border-radius: 25px;
+  // flex: 40%;
+  // flex-basis: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-flow: wrap;
+  gap: 1%;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  // padding: 5%;
+  box-sizing: border-box;
+  
+  strong
+  {
+    // padding: 2%;
+    box-sizing: border-box;
+  }
+  .ard_des
+  {
+    font-size: 80%;
+  }
+
+  // .prj_expl
+  // {
+  //   font-size: 80%;
+
+  // }
+}
+
+.arduino_prj_flow
+{
+  width: 15%;
+  height: 90%;
+  // background-color: green;
+  // display: flex;
+  // justify-content: space-around;
+  // flex-wrap: wrap;
+  // flex-flow: wrap;
+  // gap: 5%;
+  // flex-direction: column;
+  padding: 0.5%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.arduino_flow_img
+{
+  width: 100%;
+  height: 80%;
+  // font-size: x-large;
+  // padding: 30px;
+  // // background-color: rgb(104, 237, 104);
+  // // background: rgba(255, 255, 255, 0.1);
+  // // box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  // // border: 1px solid rgba(255, 255, 255, 0.18);
+  // // backdrop-filter: blur(4px);
+  // // border-radius: 25px;
+  // // flex: 40%;
+  // // flex-basis: auto;
+  // display: flex;
+  // justify-content: space-around;
+  // flex-wrap: wrap;
+  // flex-flow: wrap;
+  // gap: 1%;
+  // flex-direction: row;
+  // padding: 0;
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+
+
+  .img1
+  {
+    display: block;
+    width: 25%;//100px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+  }
+
+  // .img2
+  // {
+  //   display: block;
+  //   width: 100px;
+  //   margin-left: auto;
+  //   margin-right: auto;
+  //   box-sizing: border-box;
+  // }
+  // .img3
+  // {
+  //   display: block;
+  //   width: 100px;
+  //   margin-left: auto;
+  //   margin-right: auto;
+  //   box-sizing: border-box;
+  // }
+  // .img4
+  // {
+  //   display: block;
+  //   width: 100px;
+  //   margin-left: auto;
+  //   margin-right: auto;
+  //   box-sizing: border-box;
+  // }
+  // .img5
+  // {
+  //   display: block;
+  //   width: 100px;
+  //   margin-left: auto;
+  //   margin-right: auto;
+  //   box-sizing: border-box;
+  // }
+}
+
+
+.arduino_code
+{
+  width: 25%;
+  height: 90%;
+  // background-color: blanchedalmond;
+  // display: flex;
+  // justify-content: space-around;
+  // flex-wrap: wrap;
+  // flex-flow: wrap;
+  // gap: 5%;
+  // flex-direction: column;
+  padding: 0.5%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  
+  .coding
+  {
+    width: 80%;
+    font-size: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+  }
+}
+
+.arduino_code_des
+{
+  width: 58%;
+  height: 90%;
+  // background-color: blanchedalmond;
+  font-size: 80%;
+  // display: flex;
+  // justify-content: space-around;
+  // flex-wrap: wrap;
+  // flex-flow: wrap;
+  // gap: 5%;
+  // flex-direction: column;
+  padding: 0.5%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  
+
+
+}
+
+.uno_img
+{
+  // border-radius: 50%;
+  transition: 0.2s;
+}
+
+.uno_img:hover
+{
+  transform: scale(1.1);
+}
+
+.uno_practice_base
+{
+  width: 100%;
+  height: auto;
+  // background-color: orange;
+  // flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-flow: wrap;
+  // gap: 40%;
+  // flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  box-sizing: border-box;
+  a:hover {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+
+.uno_practice {
+  width: 80%;
+  height: auto;
+  // background-color: rgb(30, 79, 239);
+  color: #000;
+  // margin: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.uno_practice:hover {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.sect3_start_base {
+  width: 80%;
+  // background-color: pink;
+  height: auto;
+  // flex-direction: row;
+  // display: flex;
+  // justify-content: space-around;
+  // flex-wrap: wrap;
+  // flex-flow: wrap;
+  // gap: 5%;
+  // flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+
+  strong {
+    margin: 0%;
+    padding: 0%;
+    font-size: 200%;
+    text-align: center;
+    // background-color: #67f699;
+
+  }
+
+    
+}
+
+
+
+
+
+// .uno_setup_img:hover  //, .uno_setup_code:hover
+// {
+//   background-color: #67f699;
+// }
+// .arduino_prj_split_base:hover  .uno_setup_code
+// {
+//   background-color: #67f699;
+// }
+// .uno_setup:hover
+// {
+//   background-color: #67f699;
+//   box-shadow: orange;
+// }
+
+.sect3_base_split 
+{
+  width: 100%;
+  height: 80%;
+  font-size: x-large;
+  padding: 30px;
+  background-color: rgb(104, 237, 104);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(4px);
+  border-radius: 25px;
+  // flex: 40%;
+  // flex-basis: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-flow: wrap;
+  gap: 4%;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+
+  .f_3_half
+  {
+    width: 55%;
+    height: 90%;
+    // background-color: green;
+    // display: flex;
+    // justify-content: space-around;
+    // flex-wrap: wrap;
+    // flex-flow: wrap;
+    // gap: 5%;
+    // flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    // // width: 50%;
+    // width: 50%;
+    // font-size: x-large;
+    // padding: 30px;
+    // /* background-color: aqua; */
+    // background: rgba(255, 255, 255, 0.1);
+    // box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    // border: 1px solid rgba(255, 255, 255, 0.18);
+    // backdrop-filter: blur(4px);
+    // // margin-top: 50px;
+    // // margin-left: auto;
+    // // margin-right: auto;
+    // border-radius: 25px;
+    // // flex: 40%;
+    
+    // flex-basis: auto;
+    // box-sizing: border-box;
+
+    strong {
+      font-size: 110%;
+    }
+
+    .features {
+      font-size: large;
+    }
+
+    .arduino_links{
+      font-size: 80%;
+    }
+    p{
+      font-size: 88%;
+    }
+
+  }
+
+
+
+  .s_3_half
+  {
+    // width: 100%;
+    // height: 80%;
+    // font-size: x-large;
+    // padding: 30px;
+    // background-color: rgb(104, 237, 104);
+    // background: rgba(255, 255, 255, 0.1);
+    // box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    // border: 1px solid rgba(255, 255, 255, 0.18);
+    // backdrop-filter: blur(4px);
+    // border-radius: 25px;
+    // // flex: 40%;
+    // // flex-basis: auto;
+    // display: flex;
+    // justify-content: space-around;
+    // flex-wrap: wrap;
+    // flex-flow: wrap;
+    // gap: 4%;
+    // flex-direction: row;
+    // margin-left: auto;
+    // margin-right: auto;
+    // box-sizing: border-box;
+
+
+            width: 40%;
+            // height: 90%;
+            // background-color: green;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            flex-flow: wrap;
+            // gap: 5%;
+            // flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            box-sizing: border-box;
+    // // width: 50%;
+    // width: 40%;
+    // font-size: x-large;
+    // padding: 30px;
+    // /* background-color: aqua; */
+    // background: rgba(255, 255, 255, 0.1);
+    // box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    // border: 1px solid rgba(255, 255, 255, 0.18);
+    // backdrop-filter: blur(4px);
+    // // margin-top: 50px;
+    // // margin-left: auto;
+    // // margin-right: auto;
+    // border-radius: 25px;
+    // // flex: 40%;
+    // flex-basis: auto;
+    // box-sizing: border-box;
+  }
+}
+
+.s_3_half_base
+{
+  // background-color: orange;
+    width: 40%;
+    height: 80%;
+    font-size: x-large;
+    padding: 30px;
+    background-color: rgb(104, 237, 104);
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(4px);
+    border-radius: 25px;
+    // flex: 40%;
+    // flex-basis: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    gap: 4%;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+
+    // image-rendering: 
+    // {
+    //   border-radius: 50%;
+    // };
+}
+
+.stm_feature 
+{
+  font-size: 90%;
+}
+
+.arduino_prj_flow_st
+{
+  width: 18%;
+  height: 90%;
+  // background-color: green;
+  // display: flex;
+  // justify-content: space-around;
+  // flex-wrap: wrap;
+  // flex-flow: wrap;
+  // gap: 5%;
+  // flex-direction: column;
+  padding: 0.5%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+
+.st_code
+{
+  width: 38%;
+  height: 90%;
+  // background-color: blanchedalmond;
+  // display: flex;
+  // justify-content: space-around;
+  // flex-wrap: wrap;
+  // flex-flow: wrap;
+  // gap: 5%;
+  // flex-direction: column;
+  padding: 0.5%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  
+  .coding
+  {
+    width: 80%;
+    font-size: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+  }
+}
+
+.st_code_des
+{
+  width: 40%;
+  height: 90%;
+  // background-color: blanchedalmond;
+  font-size: 80%;
+  // display: flex;
+  // justify-content: space-around;
+  // flex-wrap: wrap;
+  // flex-flow: wrap;
+  // gap: 5%;
+  // flex-direction: column;
+  padding: 0.5%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  
+
+
+}
+
+
+// .arduino_code_des .prj_expl
+// {
+//   font-size: small;
+// }
+// .syntax
+// {
+//   font-size: small;
+// }
+
+// .adven_img {
+//     display: block;
+//     background: rgba(255, 255, 255, 0.1);
+//     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+//     border: 1px solid rgba(255, 255, 255, 0.18);
+//     backdrop-filter: blur(4px);    margin-top: 10px;
+//     border-radius: 10px;
+//     margin-top: 40px;
+//     margin-left: auto;
+//     margin-right: auto;
+//     box-sizing: border-box;
+// }
+
+// .board_selector {
+//     width: 70%;
+//     padding: 30px;
+//     /* background-color: aqua; */
+//     background: rgba(255, 255, 255, 0.1);
+//     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+//     border: 1px solid rgba(255, 255, 255, 0.18);
+//     backdrop-filter: blur(4px);
+//     margin-top: 20px;
+//     margin-left: auto;
+//     margin-right: auto;
+//     border-radius: 25px;
+//     box-sizing: border-box;
+// }
+
+// .group .nav {
+//     width: 80px;
+//     height: auto;
+//     /*background-color: yellowgreen;*/
+//     color: #000;
+//     margin: 10px;
+//     font-size: 20px;
+//     text-decoration: none;
+//     text-align: center;
+//     padding: 15px;
+//     border-radius: 25px;
+//     box-sizing: border-box;
+//   }
+  
+//   /* .group .nav:hover {
+//     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+//   } */
+
+//   .nav_sel {
+//     padding: 20px;
+//   }
+
+// .nav:hover {
+//     color: aqua;
+//     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+//   }
+
+//   .group {
+//     display: flex;
+//   }
+
+// .s_3_half_base
+// {
+//   background-color: orange;
+//   width: 100%;
+//   height: 80%;
+//   font-size: x-large;
+//   padding: 30px;
+//   background-color: rgb(104, 237, 104);
+//   background: rgba(255, 255, 255, 0.1);
+//   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+//   border: 1px solid rgba(255, 255, 255, 0.18);
+//   backdrop-filter: blur(4px);
+//   border-radius: 25px;
+//   // flex: 40%;
+//   // flex-basis: auto;
+//   display: flex;
+//   justify-content: space-around;
+//   flex-wrap: wrap;
+//   flex-flow: wrap;
+//   gap: 4%;
+//   flex-direction: column;
+//   margin-left: auto;
+//   margin-right: auto;
+//   box-sizing: border-box;
+// }
+
+
+
+
+  .row:before,
+  .row:after,
+  .group:before,
+  .group:after {
+    content: "";
+    display: table;
+  }
+  
+  .row:after,
+  .group:after {
+    clear: both;
+  }
+  
+  .row,
+  .group {
+    zoom: 1;
+  }
